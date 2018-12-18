@@ -1,0 +1,253 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#example{
+       	position:relative;
+       	width:980px;
+       	height:48 0px;
+       	margin:0 auto 10px;
+       	padding:10px;
+       	background-color:blue;
+       	margin-left: 0.6px;
+       	}             
+       .childbox{font-size:12px;
+        position:relative
+        width:60px;
+        height:60px;
+        margin-bottom:10px;
+        background-color:#ccc;
+      }
+       .childbox p{
+        text-align:center;
+        padding-top:10px;
+       }
+       #ease.childbox{
+        -webkit-transition: all 4s ease;
+        -moz-transition: all 4s ease;
+        -o-transition: all 4s ease;
+        transition: all 4s ease;
+        border:1px solid #ff0000;
+      }
+       #ease_in.childbox {
+        -webkit-transition: all 4s ease-in;
+        -moz-transition: all 4s ease-in;
+        -o-transition: all 4s ease-in;
+        transition: all 4s ease-in;
+        border:1px solid #00ffff;
+      }
+       #ease_out.childbox {
+        -webkit-transition: all 4s ease-out;
+        -moz-transition: all 4s ease-out;
+        -o-transition: all 4s ease-out;
+        transition: all 4s ease-out;border:1px solid #f5f5f5;
+      }
+       #ease_in_out.childbox {
+        -webkit-transition: all 4s ease-in-out;
+        -moz-transition: all 4s ease-in-out;
+        -o-transition: all 4s ease-in-out;
+        transition: all 4s ease-in-out;
+        border:1px solid #f209f3;
+      }
+      #linear.childbox {
+        -webkit-transition: all 4s linear;
+        -moz-transition: all 4s linear;
+        -o-transition: all 4s linear;
+        transition: all 4s linear;border:1px solid #ddddff;
+        }
+        #custom.childbox{ 
+          -webkit-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          -moz-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          -o-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          border:1px solid #cfdf44;
+          }
+          #negative.childbox{
+            -webkit-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            -moz-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            -o-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            border:1px solid #000;
+            } #example:hover
+            .childbox, #example.hover_effect .childbox    {             -webkit-border-radius:30px;             -moz-border-radius:90px;                border-radius:90px;              -webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);                -o-transform: rotate(720deg);                 -ms-transform: rotate(720deg);              transform: rotate(720deg);                margin-left:420px;                background-color:#fff;           }
+		  #box_size{
+		  	width:1000px;
+		  	border: 8px solid red;
+		  	height: 690px;
+		  	margin-left: 20px
+		  	}
+		  	
+</style>
+</head>
+<body style="background-color:lightyellow">
+
+	<div style="background-color: ;height:1000px ;width: 700px">
+		<h2>Workshop1</h2>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	<h2>Workshop3</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h2>Workshop4 new</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	<h2>Web-Devlopment</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+</div>
+<div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div id="box_size">
+			<div id="example">
+		<div id="ease_in" class="childbox" style="height: 100px;width: 100px;background-color: darkorange"><p>E</p></div>
+	 	<div id="ease_out" class="childbox" style="height: 100px;width: 100px;background-color: darkorange"><p>D</p></div>
+	 	<div id="ease_in_out" class="childbox" style="height: 100px;width: 100px;background-color: white"><p>U</p></div>
+	 	<div id="linear" class="childbox" style="height: 100px;width: 100px;background-color: white"><p>F</p></div>
+	 	<div id="custom" class="childbox" style="height: 100px;width: 100px;background-color: green"><p>O</p></div>
+	 	<div id="negative" class="childbox" style="height: 100px;width: 100px;background-color: green"><p>X</p></div>
+	 </div> </div>
+	 <div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+<h2>App-Devlopment</h2>
+	<br>
+	Android is an open-source, customizable mobile operating system created by Google for use on touchscreen devices. It’s the most popular operating system in use today. While mainly installed on smartphones, it is also in use on other smart devices such as TVs and watches.
+	Learn how to make Android apps with free online courses that will teach you the fundamentals. In Introduction to Mobile Application Development using Android, a 6-week, self-paced course from the <b>EDUFOX</b>, students will get introduced to the Android platform, Android SDK tools and Android Studio, the development environment used to create Android apps. Learn about mobile UI design, graphics, multimedia, network support and event handling. The course is part of a professional Android certificate program that focuses on using the Java programming language to develop Android applications.
+	<br><br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	 	<br>
+	<h2>Big-Data</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	<h2>Block-Chain</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<h2>Java</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	<h2>C++</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br><br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+	<h2>Data Structure</h2>
+	<br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<br>
+	<br>
+	<h3>To register this course <a href="../../register/">click here</a></h3>
+	<br>
+	<br>
+</div>
+</body>
+</html>

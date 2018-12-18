@@ -1,0 +1,19 @@
+{%load static%}
+<html>
+<head>
+	<title>
+		Registeration Forms
+	</title>
+	<link rel="stylesheet" type="text/css" href="{%static 'edufox/css/display.css' %}">
+</head>
+	<body background="{% static 'edufox/css/fox.jpg' %}" >
+		<div id="animated_div">EduFox</div><br>
+	<br>
+
+		<form action='../../save2/' method='post'>
+			{% csrf_token %}
+			{{form.as_p}}
+			<input type='submit'>
+		</form>
+	</body>
+</html>

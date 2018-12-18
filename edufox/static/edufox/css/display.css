@@ -1,0 +1,219 @@
+
+{%load static%}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+		 #animated_div{
+       	text-align:center;
+       	color:black;
+       	position:relative;
+       	font-weight:bold;
+       	 width:60px;
+       	 height:40px;
+       	 background:#6699FF;
+       	 font-size:20px;
+       	 padding:10px;
+       	 animation:animated_div 5s infinite;
+       	 -moz-animation:animated_div 5s infinite;
+       	 -webkit-animation:animated_div 5s infinite;
+       	 border-radius:10px;
+       	 -webkit-border-radius:10px;
+       	 }
+       	 @keyframes animated_div
+       	 {
+       	 	0%   {left:25px;}
+       	 	20%  {left:100px; background-color: green;}
+       	 	40%  {left:200px; background-color: red;}
+       	 	60%  {left:300px; background-color: yellow;}
+       	 	80%  {left:500px; background-color: blue;}
+       	 	100% {left:25px; background-color: pink;}
+       	 	}
+            @-webkit-keyframes animated_div
+       	 {
+                  0%   {left:25px;}
+       	 	20%  {left:100px; background-color: green;margin-top: 100px;}
+       	 	40%  {left:200px; background-color: red;margin-top: 0px;}
+       	 	60%  {left:300px; background-color: yellow;margin-top: 100px;}
+       	 	80%  {left:500px; background-color: blue;margin-top: 0px;}
+                  100% {left:25px; background-color: pink;}
+            }
+            @-moz-keyframes animated_div
+            {
+            	0%   {left:25px;}
+            	20%  {left:100px; background-color: green;}
+            	40%  {left:200px; background-color: red;}
+            	60%  {left:300px; background-color: yellow;}
+            	80%  {left:500px; background-color: blue;}
+            	100% {left:25px; background-color: pink;}
+            }
+            #box_shadow
+ 		{
+ 			font-size: 20px;
+ 			color: #ffffff;
+ 			font-weight: bold;
+ 			padding: 10px;
+ 			background: #6AAFCF;
+ 			-moz-box-shadow: 15px 15px 5px #888245;
+ 			-webkit-box-shadow: 15px 15px 5px #888245;
+ 			-o-box-shadow: 15px 15px 5px #888245;
+ 			box-shadow: 15px 15px 5px #888245;
+ 		}
+ 		#example{
+       	position:relative;
+       	width:530px;
+       	height:530px;
+       	margin:0 auto 10px;
+       	padding:10px;
+       }             
+       .childbox{font-size:12px;
+        position:relative
+        width:60px;
+        height:60px;
+        margin-bottom:10px;
+        background-color:#ccc;
+      }
+       .childbox p{
+        text-align:center;padding-top:10px;
+       }
+       #ease.childbox{
+        -webkit-transition: all 4s ease;
+        -moz-transition: all 4s ease;
+        -o-transition: all 4s ease;
+        transition: all 4s ease;
+        border:1px solid #ff0000;
+      }
+       #ease_in.childbox {
+        -webkit-transition: all 4s ease-in;
+        -moz-transition: all 4s ease-in;
+        -o-transition: all 4s ease-in;
+        transition: all 4s ease-in;
+        border:1px solid #00ffff;
+      }
+       #ease_out.childbox {
+        -webkit-transition: all 4s ease-out;
+        -moz-transition: all 4s ease-out;
+        -o-transition: all 4s ease-out;
+        transition: all 4s ease-out;border:1px solid #f5f5f5;
+      }
+       #ease_in_out.childbox {
+        -webkit-transition: all 4s ease-in-out;
+        -moz-transition: all 4s ease-in-out;
+        -o-transition: all 4s ease-in-out;
+        transition: all 4s ease-in-out;
+        border:1px solid #f209f3;
+      }
+      #linear.childbox {
+        -webkit-transition: all 4s linear;
+        -moz-transition: all 4s linear;
+        -o-transition: all 4s linear;
+        transition: all 4s linear;border:1px solid #ddddff;
+        }
+        #custom.childbox{ 
+          -webkit-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          -moz-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          -o-transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          transition: all 4s cubic-bezier(1.000, 0.835, 0.000, 0.945);
+          border:1px solid #cfdf44;
+          }
+          #negative.childbox{
+            -webkit-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            -moz-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            -o-transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+            border:1px solid #000;
+            } #example:hover
+            .childbox, #example.hover_effect .childbox    {             -webkit-border-radius:30px;             -moz-border-radius:90px;                border-radius:90px;              -webkit-transform: rotate(720deg);
+	-moz-transform: rotate(720deg);                -o-transform: rotate(720deg);                 -ms-transform: rotate(720deg);              transform: rotate(720deg);                margin-left:420px;                background-color:#fff;           }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+   
+   
+}
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+
+    }
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+.container {
+    padding: 0 16px;
+  
+}
+
+
+.container::after, .row::after {
+    content: "center";
+    clear: both;
+    display: table;
+    width: 5000px;
+    
+}
+
+.title {
+    color: blue;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
